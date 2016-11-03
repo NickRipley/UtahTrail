@@ -1,0 +1,131 @@
+newline;
+print "-----------------------------------------------------";
+newline;
+print "-                                                   -";
+newline;
+print "-  Welcome to a text based adventure written in dc  -";
+newline;
+print "-                                                   -";
+newline;
+print "-                   The Utah Trail                  -";
+newline;
+print "-                                                   -";
+newline;
+print "-----------------------------------------------------";
+newline;
+newline;
+print "Please choose a name from this list of options (Theres no readstring)";
+newline;
+print "1 - Nick";
+newline;
+print "2 - Tanner";
+newline;
+int a = 0;
+string b = "Nick";
+print "# ";
+read a;
+if ( a == 1 ) { b = "Nick"; } else { b = "Tanner"; }
+newline;
+print "Welcome ";
+print b;
+print "!";
+newline;
+newline;
+print b;
+print ", you find yourself at the University of Utah in a Computer Science course called Models of Computation.";
+newline;
+print "The instructor wants you to write an esoteric parser for a rarely used linux language.";
+newline;
+print "Do you:";
+newline;
+print "1 - Complete the assignment as instructed and turn it in with no frivolity whatsoever.";
+newline;
+print "2 - Complete the assignment as instructed, but also write a text based game of short length and great humor?";
+newline;
+print "# ";
+read a;
+if ( a == 1 ) { 
+  print "Wow, that was boring..."; 
+  newline; 
+  quit; 
+} 
+else { 
+  print "Congratulations! Your instructor gives you extra points on the assignment for being so awesome!"; 
+  newline; 
+}
+newline;
+print "Due to your awesomeness ";
+print b;
+print ", you attempt to write some nested 'if' statements (simple ones).";
+newline;
+newline;
+print "Do you:";
+newline;
+print "1 - Write the nested 'if's in such an easy way that they work no matter the scope.";
+newline;
+print "2 - Write the nested 'if's in such a way that they require difficult scoping.";
+newline;
+print "3 - Write the nested 'if's, but make no attempt to figure out the scoping at all.";
+newline;
+print "# ";
+read a;
+if ( a == 1 ) { 
+  print "Nice work! that was easy!"; 
+  newline; 
+} else { 
+  if ( a == 2 ) { 
+    print "That's too hard, you utterly fail."; 
+    newline; 
+    quit; 
+  } else { 
+    print "Well, good thing for you the the 'if's are easy enough they work."; 
+    newline; 
+  } 
+}
+newline;
+print "Oh, and you also added an 'quit' command that wasn't in the assignment. Do you:";
+newline;
+print "1 - Turn it in with the added 'quit' statement.";
+newline;
+print "2 - Play it safe and turn it in without it.";
+newline;
+print "# ";
+read a;
+newline;
+if ( a == 1 ) { print "Oh crap, your professor doesn't appreciate your 'can do' attitude and fails you."; newline; quit; } else { print "You're disappointed in yourself for not leaving the 'quit', but your professor gives you full points!"; newline; newline; }
+print "Now you decide to get fancy and make a game in the language of your assignment, with long term choices (beyond trivial immediate consequences).";
+newline;
+print "Do you:";
+newline;
+print "1 - Add other characters to the game.";
+newline;
+print "2 - Add support for awesome weapons.";
+newline;
+print "3 - Say screw it and spend time with your digital girlfriend.";
+newline;
+print "4 - Add a complex AI that utilizes machine learning to anticipate user actions and respond in a nefarious way.";
+newline;
+int c = 0;
+print "# ";
+read c;
+if ( c == 1 ) { 
+  print "Great! Your friend Michael comes to help you in your quest to create an awesome game!";
+  newline; 
+  } 
+else { 
+  if ( c == 2 ) { 
+    print "Excellent! Now for the hard part, deciding what weapon to add."; 
+    newline; 
+    } 
+  else { 
+    if ( c == 3 ) { 
+      print "Well, at least your digital girlfriend won't break up with you!"; 
+      newline; 
+      quit; 
+      } 
+    else { 
+      print "Dang, that seems difficult... Ok, good luck..."; 
+      newline; 
+    } 
+  } 
+}
